@@ -1675,3 +1675,41 @@ Served asset /jquery.js - 304 Not Modified (3ms)
 
 Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-07-12 11:52:01 +0530
 Served asset /application.js - 304 Not Modified (6ms)
+
+
+Started GET "/users/3/edit" for 127.0.0.1 at 2012-07-12 11:56:11 +0530
+Connecting to database specified by database.yml
+Processing by UsersController#edit as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT `users`.* FROM `users` WHERE `users`.`id` = 3 LIMIT 1[0m
+  Rendered users/_form.html.erb (34.1ms)
+  Rendered users/edit.html.erb within layouts/application (53.8ms)
+Completed 200 OK in 190ms (Views: 136.5ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2012-07-12 11:56:11 +0530
+Served asset /users.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-07-12 11:56:11 +0530
+Served asset /scaffolds.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-07-12 11:56:11 +0530
+Served asset /jquery.js - 304 Not Modified (10ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-07-12 11:56:11 +0530
+Served asset /application.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2012-07-12 11:56:11 +0530
+Served asset /users.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-07-12 11:56:11 +0530
+Served asset /application.js - 304 Not Modified (8ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-07-12 11:56:11 +0530
+Served asset /jquery_ujs.js - 304 Not Modified (6ms)
