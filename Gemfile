@@ -10,6 +10,7 @@ gem 'mysql2'
 
 # Gems used only for assets and not required
 # in production environments by default.
+gem 'bcrypt-ruby', '~> 3.0.0'
 gem 'therubyracer'
 group :assets do
   gem 'sass-rails',   '~> 3.2.3'
